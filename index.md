@@ -27,4 +27,5 @@ Line:
 *My wording is diagonal*
 ![Image](./screenshots/sshot.PNG)
 [Lab Report 1](lab-report-1-week2.html)
+
 [Lab Report 1](https://robrodrig.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
