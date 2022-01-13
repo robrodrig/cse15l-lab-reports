@@ -22,6 +22,8 @@ Line:
 
 ![Image](https://hddesktopwallpapers.in/wp-content/uploads/2015/09/camel-picture.jpg)
 
+![screenshot](https://github.com/robrodrig/cse15l-lab-reports/blob/main/screenshotofsite.PNG)
+
 [Link][1]
 ⋮
 [1]: http://b.org
