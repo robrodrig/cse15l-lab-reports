@@ -11,7 +11,7 @@ This tutorial is for Windows 10 operating sytem
 based computers.
 ```
 
-## Instal VS Code
+## Install VS Code
 
 Installing **VS Code** on your computer is as easy as 1-2-3. 
 
