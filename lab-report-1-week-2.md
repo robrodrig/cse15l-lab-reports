@@ -6,7 +6,7 @@
 Good Afternoon Audience. In this tutorial, you will see how to log into your course-specific account in a **step-by-step** process! (I know, very exciting stuff)
 
 ```
-!Disclaimer! 
+Disclaimer 
 This tutorial is for Windows 10 operating sytem
 based computers.
 ```
