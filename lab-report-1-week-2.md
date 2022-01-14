@@ -124,11 +124,58 @@ Type in your password afterwards, and you should see it copy over like the scree
 
 ![Image](./screenshots/scpex.PNG)
 
+## ssh key Setup
 
+Getting tired of typing your password in over and over whether its for ssh or scp?
+Well don't I have the best solution for you! *Enter* **ssh-keygen**!!!
 
+This will allow you to create a public and private key so a relationship can be made between your client and the server, effectively allowing you to sign in remotely or copy files over remotely without typing a password anymore!
 
+First step, type the following below **on your computer, not the server!!**:
 
+```
+ssh-keygen
+```
 
+See screenshot below to see it in action:
+
+![Image](./screenshots/keygen.PNG)
+
+Remember to just press enter for the defaults when generating this.
+
+Next you need to copy the **pubic** key to your profile directory in the specific filepath on the server using scp.
+
+```
+scp C:\users\rob\.ssh\id_rsa.pub cs15lwi22aoo@ieng6.ucsd.edu:~/.ssh/authorize_keys
+```
+
+See pic below:
+
+![Image](./screenshots/xfer.PNG)
+
+## OPTIMIZATION? LETS
+
+So much time consumed typing commands one by one, or taking time to connect to a server (even with our lovely new ssh-keygen in action)
+
+Luckily, we can optimize a bit. For instance, typing multiple commands in one entry and executing all in order by themselves.. Neato!
+
+```
+ssh cs15lwi22qq@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+
+This lets you ssh, compile your .java, and run your code all in one fail sweep. Check the screenshot below to see in action:
+
+![Image](./screenshots/optim.PNG)
+
+***
+
+## Conclusion
+
+You've seen the way to connect remotely using VS Code and how to do fun tasks like running useful and common commands, copying files using scp, automating logon by using ssh-keygen, and optimizing your commands!
+
+I hope you enjoyed, see you next time!
+
+-Robert
 
 
 
