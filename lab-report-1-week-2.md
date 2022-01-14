@@ -73,6 +73,56 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Type yes to agree, then you will be prompted for your password. Enter your password and you should be connected like seen in the screenshot above!
 
+## Trying out some Commands once connected
+
+A great way to get to know the system your on is to check some frequently used commands:
+
+
+* ls
+* cd
+* cd
+* cat ./
+* pwd
+* cp ~/test.txt ~/testdir/
+* vim ~/test.txt
+
+These are great commands to use for various purposes, and trying them out will give you an idea on what they do once executed!
+
+Check out the screenshot to see it in action:
+
+![Image](./screenshots/tryingcmds.PNG)
+
+## Move a file with SCP command
+
+Next we will copy some files over using scp command.
+Specifically, we will be copying a file from your computer client to the remote server using scp.
+
+First, create a file locally on your computer and name it WhereAmI.java (source is from CSE15L jpolitz).
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+Then run the file using javac, then java. 
+
+Now you should see the statistics of the computer you're working at home on. Now we will copy it over.
+
+Type the following while ensuring to **Stay** in the same directory as the .java file you just made.
+
+```
+scp ./WhereAmI.java cs15lwi22qq@ieng6.ucsd.edu:~/
+```
+
+Type in your password afterwards, and you should see it copy over like the screenshot below:
+
+![Image](./screenshots/scpex.PNG)
 
 
 
@@ -82,7 +132,3 @@ Type yes to agree, then you will be prompted for your password. Enter your passw
 
 
 
-
-
-
-![Image](./screenshots/sshot.PNG)
