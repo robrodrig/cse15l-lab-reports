@@ -21,7 +21,8 @@ Installing **VS Code** on your computer is as easy as 1-2-3.
 you will download the Windows installer.
 
 ```
-If you have any errors, reach out and ask! We would love to help!
+If you have any errors, reach out and ask! 
+We would love to help!
 ```
 
 
