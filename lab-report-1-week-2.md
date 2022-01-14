@@ -25,6 +25,9 @@ If you have any errors, reach out and ask!
 We would love to help!
 ```
 
+After the install completes, VS Code should look like this on your desktop.
+
+![Image](./screenshots/vscode.PNG)
 
 
 
