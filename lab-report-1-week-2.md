@@ -188,6 +188,8 @@ So a good reference is below screenshot where on my local client, after making m
 
 ![Image](./screenshots/keystroke.PNG)
 
+In the screenshot, I kept it in 3 keystrokes total saving me a ton of time!
+
 ***
 
 ## Conclusion
