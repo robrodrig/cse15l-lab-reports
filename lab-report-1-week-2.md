@@ -167,11 +167,32 @@ This lets you ssh, compile your .java, and run your code all in one fail sweep. 
 
 ![Image](./screenshots/optim.PNG)
 
+## Keystroke Optimization
+
+A critical piece of coding involves efficiency. We want to try our best to shave down any time we can not associated with writing the code and debugging. So a great foundation to begin this way of thinking and executing is to bring down your total keystrokes. 
+
+This can include executing multiple commands at the same time in the same line, and keeping the typing/mouse clicks to a minimum.
+
+For example, say you've made a local edit to a .java file and want to copy over to the remote server and run it.
+
+The best way to save keystrokes is by typing something along the lines of:
+
+```
+scp .\Hello.java cs15lwi22aoo@ieng6.ucsd.edu:~/; 
+javac Hello.java; java Hello.java
+```
+
+& this will enable you to save 3 keystrokes!
+
+So a good reference is below screenshot where on my local client, after making my revision, I compile my code by pressing the ("up" arrow) on my keyboard, run my code by pressing the "up" arrow, and then press the "up arrow" once more until i run into the "scp..." command!
+
+![Image](./screenshots/keystroke.PNG)
+
 ***
 
 ## Conclusion
 
-You've seen the way to connect remotely using VS Code and how to do fun tasks like running useful and common commands, copying files using scp, automating logon by using ssh-keygen, and optimizing your commands!
+You've seen the way to connect remotely using VS Code and how to do fun tasks like running useful and common commands, copying files using scp, automating logon by using ssh-keygen, optimizing your commands, and saving keystrokes by using the up arrow and multiple commands on one line!
 
 I hope you enjoyed, see you next time!
 
