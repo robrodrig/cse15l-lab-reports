@@ -47,3 +47,12 @@ Now lets try the ```scp``` command and find out if our new alias for the server 
 
 ![Image](./screenshots/LR3-3.PNG)
 
+As you can see in the screenshot, I created a file called *test-for-lab-3.txt" on my local computer, I used the ```cat``` command to display its contents so we can make sure later that the file was transferred accurately, I ```scp```'d the txt file to the UCSD server in my account's roote directory using the UCSD ssh alias, and then I ```ssh```'d into the server using the alias and ```cat```'d the file's contents from the server and verified that we ```scp```'d correctly. 
+
+## Conclusion
+
+I've shown you how to streamline ssh configuration on your computer to successfully remote into your servers in the most efficient way possible, effectively downsizing your character keystrokes to the most minimal amount possible.
+
+I hope you enjoyed! Take care, stay safe, and see you next time!
+
+-Robert 
